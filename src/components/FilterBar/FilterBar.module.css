@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-bottom: 2rem;
+}
+
+.botao {
+  background-color: var(--cor-card);
+  color: var(--cor-texto-fraco);
+  border: 1px solid var(--cor-borda);
+  padding: 6px 18px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.botao:hover {
+  border-color: var(--cor-destaque);
+  color: var(--cor-destaque);
+}
+
+.ativo {
+  background-color: var(--cor-primaria);
+  color: #fff;
+  border-color: var(--cor-primaria);
+}
+
+.ativo:hover {
+  background-color: var(--cor-primaria-hover);
+  color: #fff;
+  border-color: var(--cor-primaria-hover);
+}

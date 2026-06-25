@@ -1,0 +1,161 @@
+.pagina {
+  padding: 3rem 4rem;
+}
+
+.botaoVoltar {
+  background: none;
+  border: 1px solid var(--cor-borda);
+  color: var(--cor-texto-fraco);
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+  transition: all 0.2s;
+}
+
+.botaoVoltar:hover {
+  border-color: var(--cor-destaque);
+  color: var(--cor-destaque);
+}
+
+.conteudo {
+  display: grid;
+  grid-template-columns: 360px 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+.imagemWrapper {
+  position: relative;
+  border-radius: var(--raio);
+  overflow: hidden;
+  border: 1px solid var(--cor-borda);
+}
+
+.imagem {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.notaBadge {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background-color: rgba(0,0,0,0.8);
+  color: var(--cor-nota);
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: 20px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.genero {
+  background-color: var(--cor-primaria);
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 4px 14px;
+  border-radius: 20px;
+  width: fit-content;
+}
+
+.titulo {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: var(--cor-texto);
+  line-height: 1.2;
+}
+
+.metadados {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.metaLabel {
+  font-size: 0.75rem;
+  color: var(--cor-texto-fraco);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+
+.metaValor {
+  font-size: 1rem;
+  color: var(--cor-texto);
+  font-weight: 600;
+}
+
+.plataformasWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.plataformas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.plataforma {
+  background-color: var(--cor-card);
+  border: 1px solid var(--cor-borda);
+  color: var(--cor-texto-fraco);
+  font-size: 0.8rem;
+  padding: 4px 12px;
+  border-radius: 8px;
+}
+
+.descricaoWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.descricao {
+  color: var(--cor-texto-fraco);
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.botaoCatalogo {
+  background-color: var(--cor-primaria);
+  color: #fff;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  width: fit-content;
+  margin-top: 0.5rem;
+}
+
+.botaoCatalogo:hover {
+  background-color: var(--cor-primaria-hover);
+}
+
+.erro {
+  padding: 4rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+}

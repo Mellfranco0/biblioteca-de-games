@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --cor-fundo: #0d0d1a;
+  --cor-fundo2: #13132b;
+  --cor-card: #1a1a35;
+  --cor-primaria: #7c3aed;
+  --cor-primaria-hover: #6d28d9;
+  --cor-destaque: #a855f7;
+  --cor-texto: #e2e8f0;
+  --cor-texto-fraco: #94a3b8;
+  --cor-borda: #2d2d5e;
+  --cor-nota: #facc15;
+  --fonte-titulo: 'Segoe UI', sans-serif;
+  --raio: 12px;
+  --sombra: 0 4px 24px rgba(124, 58, 237, 0.15);
+}
+
+body {
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+  font-family: var(--fonte-titulo);
+  min-height: 100vh;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main {
+  flex: 1;
+}
