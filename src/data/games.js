@@ -35,7 +35,7 @@ export const games = [
     nota: 9.6,
     descricao: "Kratos e Atreus devem se preparar para o Ragnarök enquanto viajam pelos Nove Reinos à procura de respostas e enfrentam deuses nórdicos poderosos.",
     descricaoCurta: "Pai e filho contra os deuses nórdicos no fim dos tempos.",
-    imagem: "https://upload.wikimedia.org/wikipedia/en/e/e8/God_of_War_Ragnar%C3%B6k_cover.jpg",
+    imagem: "https://gmedia.playstation.com/is/image/SIEPDC/god-of-war-ragnarok-keyart-01-en-07sep21",
     destaque: false
   },
   {
@@ -61,7 +61,7 @@ export const games = [
     nota: 9.3,
     descricao: "Um jogo de ação e aventura em 2D ambientado num vasto reino subterrâneo de insetos. Explore cavernas, enfrente criaturas e descubra segredos antigos.",
     descricaoCurta: "Metroidvania indie com arte deslumbrante e mundo imenso.",
-    imagem: "https://upload.wikimedia.org/wikipedia/en/5/5b/Hollow_Knight_first_cover.jpg",
+    imagem: "https://cdn.cloudflare.steamstatic.com/steam/apps/367520/header.jpg",
     destaque: false
   },
   {
@@ -100,7 +100,7 @@ export const games = [
     nota: 9.2,
     descricao: "Um jogo de sobrevivência e construção sandbox onde a criatividade não tem limites. Colete recursos, construa estruturas e sobreviva à noite.",
     descricaoCurta: "O sandbox mais famoso do mundo. Construa qualquer coisa.",
-    imagem: "https://upload.wikimedia.org/wikipedia/en/5/51/Minecraft_cover.png",
+    imagem: "https://cdn.cloudflare.steamstatic.com/steam/apps/1672970/header.jpg",
     destaque: false
   },
   {
@@ -113,7 +113,7 @@ export const games = [
     nota: 9.1,
     descricao: "Herde a fazenda do seu avô e construa uma nova vida no interior. Plante, cultive, crie animais, faça amigos e explore minas cheias de segredos.",
     descricaoCurta: "Fazenda, amizades e magia numa vila encantadora.",
-    imagem: "https://upload.wikimedia.org/wikipedia/en/f/fd/Stardew_Valley_1.1_logo.png",
+    imagem: "https://cdn.cloudflare.steamstatic.com/steam/apps/413150/header.jpg",
     destaque: false
   },
   {
