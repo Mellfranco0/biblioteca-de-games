@@ -50,7 +50,7 @@ npm install
 npm run dev
 ```
 
-Acesse em: http://localhost:5173
+Acesse em: https://biblioteca-de-games.netlify.app/
 
 ## Link do Repositório
 
